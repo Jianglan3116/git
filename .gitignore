@@ -1,0 +1,70 @@
+# ===== 操作系统 =====
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ===== IDE / 编辑器 =====
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# CLion / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+cmake-build-*/
+
+# ===== C / C++ 编译产物 =====
+# 编译器输出
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# 链接/调试
+*.out
+*.app
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# ===== Git 本地临时 =====
+*.orig
+*.rej
+
+# ===== 日志 / 临时文件 =====
+*.log
+tmp/
+temp/
